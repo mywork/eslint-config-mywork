@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-mywork",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mywork/eslint-config-mywork.git",
+  "author": "Lucas Dias <lucasdiaas@outlook.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 6.6.0",
+    "eslint-config-airbnb": ">= 18.0.1",
+    "eslint-plugin-import": ">= 2.18.2",
+    "eslint-plugin-jest": ">= 23.8.2",
+    "eslint-plugin-jsx-a11y": ">= 6.2.3",
+    "eslint-plugin-react": ">= 7.16.0",
+    "eslint-plugin-react-hooks": ">= 2.3.0",
+    "@typescript-eslint/eslint-plugin": ">= 2.8.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": ">= 2.8.0",
+    "babel-eslint": ">= 10.0.1"
+  }
+}
