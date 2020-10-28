@@ -17,15 +17,15 @@ module.exports = {
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/member-delimiter-style': ['error', {
       'multiline': {
-        'delimiter': 'comma',
+        'delimiter': 'semi',
         'requireLast': true
       },
       'singleline': {
-          'delimiter': 'comma',
+          'delimiter': 'semi',
           'requireLast': false
       }
     }],
-    'import/no-extraneous-dependencies': ['error', {'packageDir': __dirname}],
+    'import/no-extraneous-dependencies': ['error'],
     'import/no-unresolved': 'off',
     'import/extensions': ['error', { json: 'always' }],
 
@@ -39,6 +39,16 @@ module.exports = {
     ],
     'react/require-default-props': ['off'],
     'no-shadow': ['off'],
-    'curly': ["error", "multi"],
+    'curly': ["error", "multi-line"],
+    'react/jsx-curly-newline': 0,
+    'operator-linebreak': 0,
+    'implicit-arrow-linebreak': 0,
+    'nonblock-statement-body-position': 0,
+    'object-curly-newline': 0,
+    'indent': 0,
+    'function-paren-newline': 0,
+    'newline-per-chained-call': 0,
+    'no-confusing-arrow': 0,
+    'react/jsx-wrap-multilines': 0,
   },
 };
