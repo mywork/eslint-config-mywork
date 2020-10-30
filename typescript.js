@@ -13,8 +13,6 @@ module.exports = {
   ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/no-use-before-define': 'off',
-    '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/member-delimiter-style': ['error', {
       'multiline': {
         'delimiter': 'semi',
@@ -25,10 +23,22 @@ module.exports = {
           'requireLast': false
       }
     }],
+    '@typescript-eslint/no-empty-function': 'off',
+    '@typescript-eslint/no-use-before-define': 'off',
+    'curly': ["error", "multi-line"],
+    'function-paren-newline': ['off'],
+    'implicit-arrow-linebreak': ['off'],
+    'import/extensions': ['error', { json: 'always' }],
     'import/no-extraneous-dependencies': ['error'],
     'import/no-unresolved': 'off',
-    'import/extensions': ['error', { json: 'always' }],
-
+    'indent': ['off'],
+    'newline-per-chained-call': ['off'],
+    'no-confusing-arrow': ['off'],
+    'no-shadow': ['off'],
+    'nonblock-statement-body-position': ['off'],
+    'object-curly-newline': ['off'],
+    'operator-linebreak': ['off'],
+    'react/jsx-curly-newline': ['off'],
     'react/jsx-filename-extension': [
       1,
       {
@@ -37,18 +47,7 @@ module.exports = {
         ]
       }
     ],
-    'react/require-default-props': ['off'],
-    'no-shadow': ['off'],
-    'curly': ["error", "multi-line"],
-    'react/jsx-curly-newline': ['off'],
-    'operator-linebreak': ['off'],
-    'implicit-arrow-linebreak': ['off'],
-    'nonblock-statement-body-position': ['off'],
-    'object-curly-newline': ['off'],
-    'indent': ['off'],
-    'function-paren-newline': ['off'],
-    'newline-per-chained-call': ['off'],
-    'no-confusing-arrow': ['off'],
     'react/jsx-wrap-multilines': ['off'],
+    'react/require-default-props': ['off'],
   },
 };
