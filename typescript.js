@@ -25,7 +25,7 @@ module.exports = {
     }],
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
-    'curly': ["error", "multi-line"],
+    'curly': ['warn', 'multi-line'],
     'import/extensions': ['error', { json: 'always' }],
     'import/no-extraneous-dependencies': ['error'],
     'import/no-unresolved': 'off',

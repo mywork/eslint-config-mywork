@@ -6,15 +6,15 @@ module.exports = {
   ],
   rules: {
     'comma-dangle': 'off',
-    'curly': ["error", "multi-line"],
+    'curly': ['warn', 'multi-line'],
     'import/extensions': ['error', { json: 'always' }],
     'import/no-extraneous-dependencies': ['error'],
     'import/no-unresolved': 'off',
     'indent': [
-      'error',
+      'warn',
       2
     ],
-    'linebreak-style': 'off',
+    'linebreak-style': ['warn', 'unix'],
     'no-shadow': ['off'],
     'no-use-before-define': 'off',
     'react/jsx-filename-extension': [
