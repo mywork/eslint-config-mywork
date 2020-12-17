@@ -6,7 +6,7 @@ This package provides Mywork's .eslintrc as an extensible shared config.
 
 ## Usage
 
-We export two ESLint configurations for your usage.
+We export three ESLint configurations for your usage.
 
 Our default export contains all of our ESLint rules, including ECMAScript 6+ and React. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-plugin-react-hooks`, `eslint-config-airbnb`, `eslint-plugin-jest` and `eslint-plugin-jsx-a11y`.
 
@@ -58,3 +58,21 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+ and
 
 This entry point enables the linting rules for Typescript. To use, add `"extends": ["mywork/typescript"]` to your `.eslintrc`
 
+### eslint-config-mywork/prettier
+
+If you use prettier in your project, you should also add `"extends": [mywork/prettier]` to your `.eslintrc`
+
+You can use our recommended configs for `.prettierrc.json`
+
+```JSON
+{
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "quoteProps": "as-needed",
+  "singleQuote": true,
+  "semi": true,
+  "tabWidth": 2,
+  "trailingComma": "all"
+}
+```
